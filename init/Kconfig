@@ -22,6 +22,8 @@ config CONSTRUCTORS
 
 config HAVE_IRQ_WORK
 	bool
+	
+source ArchiOpti/Kconfig
 
 config IRQ_WORK
 	bool
